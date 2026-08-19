@@ -1,0 +1,8 @@
+# Anything in .github/workflows requires platform-team approval
+.github/workflows/   @your-username
+
+# Anything touching auth requires the security team
+/src/auth/           @your-username
+
+# Migrations are highest-risk
+/migrations/         @your-username
